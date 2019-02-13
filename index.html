@@ -7,6 +7,7 @@
     <link rel="stylesheet"
           href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
           integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -19,15 +20,31 @@
       });
     </script>
 </head>
-<body>
+<body style="padding-left: 20px">
     <div id="header"></div>
     <section>
-        <h1>About Penguin Pals</h1>
+        <h3>About Penguin Pals</h3>
         <p>Penguin Pals has one reason for existence - to educate the public about these amazing creature we call
-            penguins.</p>
-        <p>Did you know penguins don't need to live in cold places? Just places where the water is cold.</p>
-        <img src="https://news.nationalgeographic.com/content/dam/news/2016/06/29/adelie_penguin/01_adelie_penguin.ngsversion.1467248400404.adapt.1900.1.jpg"
-             alt="Penguins" style="width:500px;">
+            penguins.</p>ª
+
+        <div class="row">
+            <div class="column">
+                <img src="https://news.nationalgeographic.com/content/dam/news/2016/06/29/adelie_penguin/01_adelie_penguin.ngsversion.1467248400404.adapt.1900.1.jpg"
+                     alt="Penguins" style="width: 90%;" hspace="20">
+            </div>
+            <div class="column">
+                <h3>Amazing Penguin Fact!</h3>
+                <p>Did you know penguins don't need to live in cold places? Just places where the water is cold.</p>
+                <h3>Penguin Jokes!</h3>
+                <p>Q: Why don’t you see penguins in Britain?</p>
+                <p>Q: Where does a penguin go when it loses its tail?</p>
+                <p>A: A re-tail store.</p>
+                <p>Q: What is even smarter than a talking penguin?</p>
+                <p>A: A spelling bee.</p>
+                <p>Q: What do you call a cold penguin?</p>
+                <p>A: A Brrr-d.</p>
+            </div>
+        </div>
     </section>
     <div id="footer"></div>
 </body>
